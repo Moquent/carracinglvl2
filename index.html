@@ -8,6 +8,28 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBPW0x8Hsg8MQGTu3UX9AqBNnn5PUbFer4",
+    authDomain: "carracing-game.firebaseapp.com",
+    databaseURL: "https://carracing-game.firebaseio.com",
+    projectId: "carracing-game",
+    storageBucket: "carracing-game.appspot.com",
+    messagingSenderId: "340728453387",
+    appId: "1:340728453387:web:fdd3d9cbb2fe8bb0e2aa0e"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
   </head>
   <body>
       <script src="sketch.js"></script>
